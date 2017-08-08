@@ -7,7 +7,7 @@ const tyReplace = '@poi-plugin-master-diff@currentMaster@Replace'
 /*
    when the state is not null, it's an Object of following structure:
 
-   - masterData: Object
+   - data: Object
    - time: Number
 
  */
