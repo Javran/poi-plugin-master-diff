@@ -12,7 +12,7 @@ const tyReplace = '@poi-plugin-master-diff@currentMaster@Replace'
 
  */
 const reducer = (state = null, action) => {
-  if (action.type === '@@Response/kcsapi/api_start2') {
+  if (action.type === '@@Response/kcsapi/api_start2/getData') {
     const {time, body} = action
     store.dispatch(dispatch => setTimeout(() => {
       const data = normalizeData(body)
